@@ -1,7 +1,6 @@
+const fname ="Mark Zuckaberg"
 
 
-
-// ... the starter code you pasted ...
-const domContainer = document.querySelector('#like_button_container');
+const domContainer = document.querySelector('#root');
 const root = ReactDOM.createRoot(domContainer);
-root.render(e(LikeButton));
+root.render(fname);
