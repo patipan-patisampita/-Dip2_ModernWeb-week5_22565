@@ -45,6 +45,10 @@ function Time(){
     )
 }
 
+function getCurrentTime(){
+    return new Date().toTimeString()
+}
+
 function MyApp(){
     return(
         <div>
@@ -56,6 +60,7 @@ function MyApp(){
             <Frontend />
             <Backend />
             <Time />
+            <p>The current time is <span className="text3">{getCurrentTime()}</span></p>
         </div>
     )
 }
